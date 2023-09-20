@@ -1,0 +1,98 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style the body */
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('background header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 20px;
+  }
+
+  /* Style the header */
+  #aboutme {
+    text-align: center;
+    background-image: url('background.jpg');
+    background-size: cover;
+    padding: 20px;
+  }
+  
+  #name {
+    font-family: "Copperplate";
+    font-weight: bold;
+    color: #FF00FF;
+    font-size: 50px;
+  }
+  
+  #aboutme p {
+    font-family: "Copperplate";
+    color: #BC13FE;
+    font-size: 30px;
+  }
+  
+  /* Style the tables */
+  table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  /* Style the games, series, and anime sections */
+  #games, #series, #anime {
+    background-image: url('background.jpg');
+    background-size: contain;
+    padding: 60px;
+    margin: 50px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #games h2, #series h2, #anime h2 {
+    font-family: "Copperplate";
+    font-weight: bold;
+    color: #FF00FF;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  #games li, #series li, #anime li {
+    font-family: "Copperplate";
+    color: wheat;
+    justify-content: cover;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  /* Style the RANDOM section */
+  #memes {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #memes h1 {
+    font-family: "Copperplate";
+    font-weight: bold;
+    color: #FF00FF;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  #memes a {
+    text-decoration: underline;
+    font-family: "Copperplate";
+    color: wheat;
+    font-size: 18px;
+
+  }
+  
+  /* Style links on hover */
+  #memes a:hover {
+    color: green;
+  }
+  
